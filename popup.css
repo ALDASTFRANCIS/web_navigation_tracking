@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    margin: 8px;
+    background-color: #f9f9fa;
+  }
+  #controls {
+    margin-bottom: 6px;
+  }
+  button {
+    margin: 0 2px 6px 2px;
+    padding: 5px 12px;
+    border: 1px solid #aae;
+    border-radius: 4px;
+    background: #d6e9fa;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  button:hover { background: #c5ddf5; }
+  ul#eventsList {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #eee;
+    max-height: 210px;
+    overflow-y: auto;
+    font-size: 12px;
+    list-style: none;
+  }
+  ul#eventsList li {
+    padding: 3px 0;
+    border-bottom: 1px solid #eee;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .footnote {
+    font-size: 10px;
+    color: #999;
+    text-align: center;
+    margin-top: 8px;
+  }
